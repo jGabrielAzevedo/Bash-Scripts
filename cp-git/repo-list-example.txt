@@ -1,0 +1,3 @@
+REPO_1 http://example.com/repo_1.git
+REPO_2 http://example.com/repo_3.git
+REPO_3 http://example.com/repo_2.git
