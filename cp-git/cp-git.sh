@@ -1,7 +1,7 @@
 #!/bin/sh
 
-# cp-git: Script para copiar um repositório GIT entre dois serviços de hospedagem
-# sintaxe:
+# cp-git: This script update the origin of a cloned GIT repo and push the changes to the new origin
+# usage:
 #   ./cp-git <nome do diretorio git a copiar> <URL do novo repositório>
 
 cd $1/
