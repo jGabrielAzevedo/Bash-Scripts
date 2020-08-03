@@ -8,6 +8,6 @@ cd $1/
 git remote rename origin old_origin
 git remote add origin $2
 git pull origin master --allow-unrelated-histories
-git push origin master -f
+git push -f --all origin
 
 git remote rm old_origin
